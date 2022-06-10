@@ -1,0 +1,32 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    width: 20%;
+}
+
+.card:nth-child(1) {
+    background-color: rgb(226, 133, 37);
+}
+
+.card:nth-child(2) {
+    background-color: rgb(1, 105, 114);
+}
+
+.card:nth-child(3) {
+    background-color: rgb(0, 64, 63);
+}
+
+.card-title {
+    text-transform: uppercase;
+}
