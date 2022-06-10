@@ -9,6 +9,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    margin-top: 15vh;
 }
 
 .card {
@@ -27,6 +28,28 @@
     background-color: rgb(0, 64, 63);
 }
 
+.card:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-icon {
+
+}
+
 .card-title {
     text-transform: uppercase;
+}
+
+.card-text {
+
+}
+
+.card-link-button {
+    text-decoration: none;
 }
